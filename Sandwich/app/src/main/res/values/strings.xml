@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sandwich</string>
+    <string name="choix_du_sandwich">Choix du sandwich</string>
+    <string name="v_g_tarien">Végétarien</string>
+    <string name="viande_rouge">Viande Rouge</string>
+    <string name="viande_blanche">Viande Blanche</string>
+    <string name="option_pour_votre_sandwich">Option pour votre sandwich</string>
+    <string name="mayonnaise">Mayonnaise</string>
+    <string name="ketchup">Ketchup</string>
+    <string name="commander">Commander</string>
+</resources>
