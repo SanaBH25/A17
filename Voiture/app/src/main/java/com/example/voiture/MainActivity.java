@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     private ListView listing;
-    ArrayAdapter<String> adapter ;
+    private ArrayAdapter<String> adapter ;
 
     private String[] data = {"Toyota", "Honda", "Ford", "BMW", "Mercedes", "Audi", "Tesla"};
 
@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         listing.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String selectedItem = data[position];
-                Toast.makeText(MainActivity.this, data[position], Toast.LENGTH_SHORT).show();
+                String selectedItem = (String) parent.getItemAtPosition(position);
+                Toast.makeText(MainActivity.this, selectedItem, Toast.LENGTH_SHORT).show();
             }
         });
     }
