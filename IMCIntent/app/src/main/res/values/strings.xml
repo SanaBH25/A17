@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IMC Intent</string>
+    <string name="poids">Poids :</string>
+    <string name="votre_poids">Votre poids</string>
+    <string name="taille">Taille :</string>
+    <string name="votre_taille">Votre taille</string>
+    <string name="calculer">Calculer</string>
 </resources>
